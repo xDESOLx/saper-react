@@ -1,6 +1,6 @@
 # Saper React
 
-I think the title is self explanatory enough, 0% AI, 100% entertainment 🎮
+I think the title is self explanatory enough, 0% AI, 100% entertainment 🎮\
 It's not the perfect reimplementation of the original game but it's still enjoyable.
 
 ## Quick start
