@@ -146,7 +146,7 @@ function App() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen gap-8">
-      <div className="grid grid-cols-16 gap-2 w-3xl">
+      <div className="grid grid-cols-16 gap-1 sm:gap-2 w-full sm:w-xl md:w-3xl">
         {map.map(field => <Field
           key={`${field.x}-${field.y}`}
           field={field}

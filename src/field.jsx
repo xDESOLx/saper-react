@@ -16,7 +16,7 @@ export default function Field({ field, gameState, onClick, onRightClick, onHover
             ? 'bg-red-800 animate-pulse'
             : field.isBomb && gameState === 'won'
                 ? 'bg-green-800 animate-pulse'
-                : background} ${field.highlighted ? 'border-2' : 'border-0'} border-blue-500 flex items-center justify-center text-xl font-bold transition-colors duration-300 rounded-md`}>
+                : background} ${field.highlighted ? 'border-2' : 'border-0'} border-blue-500 flex items-center justify-center text-[0.5rem] sm:text-base md:text-xl font-bold transition-colors duration-300 rounded-sm sm:rounded-md`}>
             {gameState === 'game-over' && field.isBomb && '💣'}
             {field.state === 'clicked' && field.adjecentBombs}
             {field.state === 'flagged' && gameState !== 'game-over'  && '🚩'}
