@@ -18,3 +18,8 @@ pnpm run build
 ```
 
 The app is built into static files which can be deployed to any web server without extra configuration or runtime requirements.
+
+## Additional credits
+
+This project uses a sound effect from ["Tranquility"](https://heltonyan.itch.io/tranquility) pack made by [heltonyan](mailto:fierydzn@gmail.com)\
+The pack is licensed under [Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/)
